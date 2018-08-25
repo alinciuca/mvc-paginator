@@ -1,0 +1,13 @@
+﻿@using Example1.Models
+@using Paginator
+@model IPaginatedResults<Product>
+
+@if (Model != null)
+{
+    foreach (var item in Model.Items)
+    {
+        <div>Product: @item.Index</div>
+    }
+    Html.RenderPartial("_PaginationPartial", Model);
+}
+

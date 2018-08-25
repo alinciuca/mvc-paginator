@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paginator", "..\Paginator\Paginator.csproj", "{8187CE18-0CE5-4203-9E9F-464157576403}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{41D11B72-32BB-4881-B7EA-645A3CCF443A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1", "Example1\Example1.csproj", "{73257449-02D8-4A8B-A76E-94C620D73B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8187CE18-0CE5-4203-9E9F-464157576403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8187CE18-0CE5-4203-9E9F-464157576403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8187CE18-0CE5-4203-9E9F-464157576403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8187CE18-0CE5-4203-9E9F-464157576403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73257449-02D8-4A8B-A76E-94C620D73B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73257449-02D8-4A8B-A76E-94C620D73B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73257449-02D8-4A8B-A76E-94C620D73B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73257449-02D8-4A8B-A76E-94C620D73B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73257449-02D8-4A8B-A76E-94C620D73B1D} = {41D11B72-32BB-4881-B7EA-645A3CCF443A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E16A7E1-8BC7-4599-A4D4-E4D4A0D2CC76}
+	EndGlobalSection
+EndGlobal
